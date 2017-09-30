@@ -1,0 +1,138 @@
+@import "taotao.less";
+.search{
+    background-color: #fff;
+    padding:30px;
+    .logo{
+        h1 a{
+            display: block;
+            width: 140px;
+            height: 45px;
+            background: url("../images/listpage/logo.png") no-repeat;
+            text-indent: -9999px;
+        }
+        
+        .menu{
+            margin-left:20px;
+            position: relative;
+            &:hover{
+                .submenu{
+                    display: block;
+                }
+                .more{
+                    border-bottom: 1px solid transparent;
+                }
+                
+            } 
+            .more{
+                  border:1px solid #ddd;
+                  width: 80px;
+                  background-color: #fff;
+                  position: relative;
+                  z-index:2;
+            }
+          
+            
+            .submenu{
+                line-height: 20px;
+                background-color: #fff;
+                width: 285px;
+                padding:10px;
+                border: 1px solid #ddd;
+                display: none;
+                position: absolute;
+                top:24px;
+                z-index:0;
+                dt,dd{float: left;}
+                dt{font-weight: bold;margin-right:10px;}
+                dd{margin:0 5px;}
+            }
+            
+        }
+    }
+    .formwrap{
+        width: 600px;
+        height: 35px;
+        form{
+            position: relative;
+            height: 35px;
+            width: 520px;
+            padding:2px;
+            background-color: #F82800;
+            ul{
+                width: 65px;
+                height: 31px;
+                line-height: 31px;
+                .tc;
+                overflow: hidden;
+                background: #FAFAFA;
+                &:hover{
+                    height: 31px *2 ;
+                }
+            }
+             input,button{
+                height: 31px;
+                border:none;outline: none;
+            }
+            input{
+                width: 372px;
+             
+                background-color: #fff;;
+            }
+            .btn1{ width: 78px;background-color: transparent;}
+            .btn2{ width: 78px; position: absolute;
+                top:0px;right:-83px;height: 35px;
+                border:1px solid #FFB08B;
+                
+            }
+            
+        }
+    }
+}
+
+.main{
+   
+   .showImg{
+       position: relative;
+       width: 400px;
+       height: 400px;
+       
+       background: url("../images/detailpage/1.jpg") no-repeat;
+       background-size: 400px 400px;
+       
+   }
+   
+   .mask{
+       position: absolute;
+       width: 200px;
+       height: 200px;
+       background: url("../images/detailpage/2-2.png");
+       display: none;
+   }
+   .bigImg{
+       position: absolute;
+       display: none;
+       width: 400px;
+       height: 400px;
+       border:2px solid red;
+       top:0;
+       left: 410px;
+       background: url("../images/detailpage/1.jpg.big.jpg") no-repeat;
+       background-size: 800px 800px;
+   }
+   
+   .smallimg{
+       li{
+           .fl;margin:5px;
+            padding:5px;border:1px solid #fff;
+       }
+       .on{
+           border:1px solid #f40; 
+       }
+       img{
+           width: 54px;
+           height: 54px;
+       }
+   }
+   
+}
+

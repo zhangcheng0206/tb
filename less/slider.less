@@ -1,0 +1,29 @@
+.slider{
+    overflow: hidden;
+    position: relative;
+    .slider-body{
+        position: absolute;
+        left:0;
+       
+        .slider-item{float: left;}
+    }
+    .btn{
+        cursor: pointer;
+        .vc; width: 24px;height:36px;background:#000;color:#fff;
+        &.btnleft{left:0;} 
+        &.btnright{right:0;}   
+        }
+    .indirector{
+        cursor: pointer;
+        .hc;
+        bottom:10px;
+        .idx{
+            &.on{
+                background-color: red;
+        }
+       display: inline-block;
+       margin:0 5px; width: 10px;height: 10px;
+       border-radius: 50%;background-color: #ccc;
+       }
+    }  
+}

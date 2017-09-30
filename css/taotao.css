@@ -1,0 +1,222 @@
+.fr {
+  float: right;
+}
+.fl {
+  float: left;
+}
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.vc {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.hc {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.lh28 {
+  line-height: 28px;
+}
+.c3 {
+  color: #333;
+}
+.c9 {
+  color: #999;
+}
+.cf4 {
+  color: #f40;
+}
+.c1 {
+  color: #9a745f;
+}
+.fs14 {
+  font-size: 14px;
+}
+.fs16 {
+  font-size: 16px;
+}
+.lh2 {
+  line-height: 2;
+}
+.lh16 {
+  line-height: 16px !important;
+}
+.mg20 {
+  margin: 20px 0;
+}
+.underline:after {
+  content: "";
+  height: 2px;
+  width: 40px;
+  background-color: #f40;
+  bottom: 0px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+div,
+input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+fieldset,
+img {
+  border: none;
+}
+img {
+  display: block;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+}
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "SimSun", "宋体";
+}
+input::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+select,
+input {
+  vertical-align: middle;
+}
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+input,
+textarea {
+  background: none;
+  border: none;
+}
+table {
+  border-collapse: collapse;
+}
+body {
+  color: #333;
+  font: 12px/20px "SimSun", "宋体", "Arial Narrow", HELVETICA;
+  background: #fff;
+}
+a {
+  color: #666;
+  text-decoration: none;
+}
+a:visited {
+  color: #666;
+}
+a:hover,
+a:active,
+a:focus {
+  color: #ff8400;
+  text-decoration: none;
+}
+body {
+  font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+  background-color: #f1f1f1;
+}
+body a:hover {
+  color: #f40;
+}
+body a {
+  color: #333333;
+}
+.w {
+  width: 1190px;
+  margin: 0 auto;
+}
+.usernav {
+  height: 35px;
+  overflow: hidden;
+  line-height: 35px;
+  background-color: #f5f5f5;
+}
+.usernav .iconfont {
+  margin: 0 5px;
+}
+.usernav .icon-gouwuche,
+.usernav .icon-liebiao1 {
+  color: #f40;
+}
+.usernav li {
+  display: inline;
+  float: left;
+  padding: 0 8px;
+}
+.usernav .menu {
+  position: relative;
+  border-left: 1px solid transparent;
+}
+.usernav .menu:hover {
+  background-color: #fff;
+  border-left: 1px solid #ddd;
+}
+.usernav .menu:hover .submenu {
+  display: block;
+}
+.usernav .menu .submenu {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: 35px;
+  left: -1px;
+  padding-left: 8px;
+  line-height: 30px;
+  width: 120px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+.usernav .menu .sitenav {
+  left: auto;
+  right: 0;
+  width: 1190px;
+}
